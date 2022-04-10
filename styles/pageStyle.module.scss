@@ -142,17 +142,19 @@
     flex: 1;
     flex-direction: row;
     
+    
     margin-top: 40px;
 }
 .Opnioes{
-    flex: 1;
+    
     
     color: #FFF;
-    text-align: justify;
     
+    
+    letter-spacing: 0.6px;
 
-    width: 198px;
-    height: 178px;
+    width: 200px;
+    
     margin:20px;
     padding:9px;
     
@@ -223,13 +225,13 @@
     flex-direction:row;
     
     align-items:flex-start;
-      
-    width: 100px;
-    height: 100px;
     
-    
-     
-    
+    margin-right: -190px;
+    margin-top: 40px;
+    width: 300px;
+    height: 130px;
+   
+
     
     h1{
         font-size: 96px;
@@ -239,18 +241,20 @@
         -webkit-text-fill-color: transparent;
     }
     h2{
+        
         font-weight: 700;
-        font-size: 54px;
+        font-size: 20px;
         background: linear-gradient(0deg, #C5262C 0%, #CA262E 1.73%, #D62638 7.92%, #DF2741 14.57%, #E62848 21.81%, #EC284B 30.09%, #EE284C 41.69%, #F99D31 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     p{
         color:#6A6868;
-        margin-top:50px;
-        margin-left: -78px;
+        margin-top:40px;
+        margin-left: -80px;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 26px;
+      
     }
 }
 .numero3{
@@ -261,7 +265,7 @@
       
     width: 100px;
     height: 100px;
-    margin-right: 200px;
+    margin-right: 300px;
     
     
     h1{
@@ -281,7 +285,7 @@
     p{
         color:#6A6868;
         margin-top:50px;
-        margin-left: -78px;
+        margin-left: -198px;
         font-weight: 700;
         font-size: 24px;
     }

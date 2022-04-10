@@ -22,8 +22,8 @@ function HomePage() {
        <GlobalStyles/>
        <Header/>
 
-          <ContainerHeader h1="Consulte e pague online seus débitos"
-          Text= "Texto de apoio lorem ipsum dolor sit amet, consectetur adipiscing elit.Texto de apoio lorem ipsum dolor sit amet, consectetur"
+          <ContainerHeader h1="Consulte e Pague seus Débitos online"
+          Text= "Pague agora qualquer boleto, guia, multa, imposto ou taxa em até 12x sem precisar sair de casa."
           />
          
          
@@ -47,23 +47,22 @@ function HomePage() {
           <Box className={styles.Titles}>
               <h1>Consulta</h1>
               <h1>Seleciona</h1>
-              <h1>Paga</h1>
+              <h1>Pague</h1>
           </Box>
           <Box className={styles.Paragrafos}>
-              <p>Texto de apoio lorem ipsum dolor 
-                sit amet, consectetur adipiscing elit. 
-                Texto de apoio lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit. 
+              <p>
+                Insira as informações necessárias de 
+                acordo com o débito que quer pagar
               </p>
 
-              <p>Texto de apoio lorem ipsum dolor sit amet,
-                 consectetur adipiscing elit. Texto de apoio lorem 
-                 ipsum dolor sit amet, consectetur adipiscing elit. 
+              <p>
+              Escolha a forma de pagamento 
+              e a quantidade de parcelas
               </p>
 
-              <p>Texto de apoio lorem ipsum dolor sit amet, consectetur 
-                adipiscing elit. Texto de apoio lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit. 
+              <p>
+                Finalize seu pagamento e tenha 
+                seus débitos liquidados de forma segura e rápida
               </p>
           </Box>
           
@@ -78,48 +77,50 @@ function HomePage() {
         <h1>O que nossos clientes acham da gente</h1>
           <Box className={styles.ContainerOpinioes}>
             <Box className={styles.Opnioes}>
-              <h2>Fábio Fernandes</h2>
-              <h3>Brasília-DF</h3>
+              <h2>Lucas Vasconcelos</h2>
+              <h3>Águas Claras - DF</h3>
               <p>
-              Texto de apoio lorem ipsum dolor sit amet, consectetur 
-              adipiscing elit. Texto de apoio lorem ipsum dolor sit 
-              amet, consectetur. 
+              Minha vida é muito corrida, valorizo muito a praticidade que a 
+              B23 trouxe pra minha vida. Mesmo quando quero parcelar em poucas vezes, 
+              utilizo a B23 pela facilidade que ela oferece. 
               </p>
             </Box>
             <Box className={styles.Opnioes}>
-              <h2>Fábio Fernandes</h2>
-              <h3>Brasília-DF</h3>
+              <h2>Beatriz Vilhena</h2>
+              <h3>Brasília - DF</h3>
               <p>
-              Texto de apoio lorem ipsum dolor sit amet, consectetur 
-              adipiscing elit. Texto de apoio lorem ipsum dolor sit 
-              amet, consectetur. 
+              Como utilizo muito o cartão de crédito, 
+              a B23 permite que eu esteja em dia com minhas 
+              contas sem me sobrecarregar. Meus débitos são 
+              quitados imediatamente, e só depois eu pago o 
+              restante das parcelas. É muito útil pra mim!
               </p>
             </Box>
             <Box className={styles.Opnioes}>
-              <h2>Fábio Fernandes</h2>
-              <h3>Brasília-DF</h3>
+              <h2>Juliana Lopes</h2>
+              <h3>São Paulo - SP</h3>
               <p>
-              Texto de apoio lorem ipsum dolor sit amet, consectetur 
-              adipiscing elit. Texto de apoio lorem ipsum dolor sit 
-              amet, consectetur. 
+              É bom poder confiar numa empresa prática e moderna.
+              Nunca tive nenhuma dificuldade e me sinto muito segura 
+              com a B23. Recomendo bastante, de verdade.
               </p>
             </Box>
             <Box className={styles.Opnioes}>
-              <h2>Fábio Fernandes</h2>
-              <h3>Brasília-DF</h3>
+              <h2>Carlos Vicente</h2>
+              <h3>Uberlândia, MG</h3>
               <p>
-              Texto de apoio lorem ipsum dolor sit amet, consectetur 
-              adipiscing elit. Texto de apoio lorem ipsum dolor sit 
-              amet, consectetur. 
+              Eu pago minhas contas e as da minha mãe. Poder fazer tudo em um só 
+              lugar é muito bom pra mim. Vocês ajudam muito pessoas como nós. Muito obrigado!
               </p>
             </Box>
             <Box className={styles.Opnioes}>
-              <h2>Fábio Fernandes</h2>
-              <h3>Brasília-DF</h3>
+              <h2>Francisco Castro</h2>
+              <h3>Fortaleza, CE</h3>
               <p>
-              Texto de apoio lorem ipsum dolor sit amet, consectetur 
-              adipiscing elit. Texto de apoio lorem ipsum dolor sit 
-              amet, consectetur. 
+              Entrei em contato por telefone e me explicaram 
+              que eles têm credenciamento direto com os órgãos 
+              e são certificados para fazerem transações online 
+              com segurança. Me trouxe muita paz. Gostei demais! 
               </p>
             </Box>
           </Box>
@@ -127,17 +128,17 @@ function HomePage() {
        <Box className={styles.ContainerNumeros}>
                <Box className={styles.numero1}>
                  <h1>52</h1>
-                 <p>instituições conveniadas</p>
+                 <p>instituições conveniadas e parceiras</p>
                </Box>
                <Box className={styles.numero2}>
-                 <h1>200</h1>
-                 <h2>mil</h2>
-                 <p>clientes ajudados</p>
+                 <h1>26</h1>
+                 <h2>Estados e o DF</h2>
+                 <p>presente em todo o Brasil!</p>
                </Box>
                <Box className={styles.numero3}>
-                 <h1>520</h1>
-                 <h2>mil</h2>
-                 <p>débitos liquidados</p>
+                 <h1>+10</h1>
+                 <h2>milhões</h2>
+                 <p>em débitos regularizados</p>
                </Box> 
        </Box>
           <Box className={styles.Duvidas}>
