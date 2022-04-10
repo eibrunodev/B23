@@ -1,0 +1,309 @@
+
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 608px;
+    background-color: #FFF;
+}
+.textConsulta{
+    position: absolute;
+    right:520px;
+    left:-180px;
+    top: 456px;
+    
+    
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 103%;
+    /* identical to box height, or 25px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.imgPague{
+    
+    position: absolute;
+    width: 520px;
+    height: 36px;
+    left: 150px;
+    top: 520px;
+}
+
+.saibaFacil{
+    display : flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+   
+    margin-top: -10px;
+    margin-bottom: -35px;
+    height:653px;
+
+    background-image:url(../public/assets/grafismo.png), linear-gradient(0deg, #C5262C 0%, #CA262E 1.73%, #D62638 7.92%, #DF2741 14.57%, #E62848 21.81%, #EC284B 30.09%, #EE284C 41.69%, #F99D31 100%);
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: -50px;
+    
+    color: #fff;
+    
+    
+    
+}
+
+.title{
+    margin-top: -100px;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.imgFacil{
+    display:flex;
+    justify-content:space-around;
+    padding:10px;
+    
+    width: 1000px;
+    margin-top: 20px
+}
+
+
+.Titles{
+    display:flex;
+    justify-content:space-around;
+    
+    width: 1000px;
+    margin-right: 20px;
+    margin-top: 20px
+}
+
+.Paragrafos{
+   display: flex;
+   justify-content:space-around;
+   width:1000px;
+   text-justify: right;
+  
+  p{
+    width: 250px;
+    height: 108px;
+    
+    margin-left: 60px;
+    padding: 3px;
+  }
+}
+
+.ContainerConsultaBandeiras{
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+ 
+ 
+ width: 920px;
+ margin-top:10px;
+}
+
+.buttonConsulta{
+    font-weight: 700;
+    background-color:#FFF;
+    color: rgba(203, 59, 68, 1);
+    
+    margin-right: 150px;
+    
+}
+
+.ContainerAcham{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    
+    height:400px;
+
+    background-color: #E6E3E3;
+
+    h1{
+        font-size:42px;
+        text-align:center;
+        font-weight: 700;
+        font-family: Helvetica, sans-serif;
+
+        color:#CB3B44;
+        width: 508px;
+        height: 80px;
+        
+        
+    }
+}
+.ContainerOpinioes{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    
+    margin-top: 40px;
+}
+.Opnioes{
+    flex: 1;
+    
+    color: #FFF;
+    text-align: justify;
+    
+
+    width: 198px;
+    height: 178px;
+    margin:20px;
+    padding:9px;
+    
+    background: linear-gradient(0deg, #C5262C 0%, #CA262E 1.73%, #D62638 7.92%, #DF2741 14.57%, #E62848 21.81%, #EC284B 30.09%, #EE284C 41.69%, #F99D31 100%);
+    
+    h2{
+        margin-top:10px;
+        font-size:16px;
+        font-weight: bold
+    }
+    h3{
+        font-size:12px;
+    }
+
+    p{
+        margin-top:10px;
+
+        font-weight: 500;
+        font-size:14px;
+
+    }
+
+}
+
+
+.ContainerNumeros{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    
+    
+    background-color: #fff;
+
+    
+    height: 197px;
+    margin-top: 10px;
+
+    
+
+}
+.numero1{
+    display: flex;
+    flex-direction:row;
+    
+    align-items:flex-start;
+      
+    width: 100px;
+    height: 100px;
+    
+    
+    
+    h1{
+        font-size: 96px;
+        font-weight: 700;
+        background: linear-gradient(0deg, #C5262C 0%, #CA262E 1.73%, #D62638 7.92%, #DF2741 14.57%, #E62848 21.81%, #EC284B 30.09%, #EE284C 41.69%, #F99D31 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    p{
+        color:#6A6868;
+        margin-top:17px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+}
+.numero2{
+    display: flex;
+    flex-direction:row;
+    
+    align-items:flex-start;
+      
+    width: 100px;
+    height: 100px;
+    
+    
+     
+    
+    
+    h1{
+        font-size: 96px;
+        font-weight: 700;
+        background: linear-gradient(0deg, #C5262C 0%, #CA262E 1.73%, #D62638 7.92%, #DF2741 14.57%, #E62848 21.81%, #EC284B 30.09%, #EE284C 41.69%, #F99D31 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    h2{
+        font-weight: 700;
+        font-size: 54px;
+        background: linear-gradient(0deg, #C5262C 0%, #CA262E 1.73%, #D62638 7.92%, #DF2741 14.57%, #E62848 21.81%, #EC284B 30.09%, #EE284C 41.69%, #F99D31 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    p{
+        color:#6A6868;
+        margin-top:50px;
+        margin-left: -78px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+}
+.numero3{
+    display: flex;
+    flex-direction:row;
+    
+    align-items:flex-start;
+      
+    width: 100px;
+    height: 100px;
+    margin-right: 200px;
+    
+    
+    h1{
+        font-size: 96px;
+        font-weight: 700;
+        background: linear-gradient(0deg, #C5262C 0%, #CA262E 1.73%, #D62638 7.92%, #DF2741 14.57%, #E62848 21.81%, #EC284B 30.09%, #EE284C 41.69%, #F99D31 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    h2{
+        font-weight: 700;
+        font-size: 54px;
+        background: linear-gradient(0deg, #C5262C 0%, #CA262E 1.73%, #D62638 7.92%, #DF2741 14.57%, #E62848 21.81%, #EC284B 30.09%, #EE284C 41.69%, #F99D31 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    p{
+        color:#6A6868;
+        margin-top:50px;
+        margin-left: -78px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+}
+
+.Duvidas{
+    display: flex;
+    
+    align-items:center;
+    flex-direction:column;
+    
+    background-color: #E6E3E3;
+    
+    height: 600px;
+    margin-top: 10px;
+   
+
+    h3{
+        margin-top: 15px;
+        font-size:12px;
+        text-decoration: underline;
+        color:#C5262C;
+    }
+}
+

@@ -1,0 +1,67 @@
+.ContainerFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    background-image:url(../../../public/assets/grafismoFooter.png);
+    background-position-x:450px;
+    background-position-y: 50px;
+    background-color: #5A5A5A;
+    background-repeat:no-repeat;
+    height: 318px;
+}
+
+.Logo{
+    margin-right: 300px;
+    margin-left: -600px;
+    margin-top: 80px;
+    width: 99.03px;
+    height:46.76px;
+    
+
+    img{
+        width: 99.03px;
+        height:46.76px;
+    }
+
+}
+
+.Parceiros{
+    height:50px;
+    margin-left: 400px;
+    margin-top: -150px;
+}
+
+.Info{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-left:-80px;
+    
+    h4{
+        font-size: 12px;
+        margin-left:150px;
+        margin-bottom: 10px;
+    }
+    a{
+        text-decoration: underline;
+    }
+}
+.Consutar{
+   display: flex;
+  
+   justify-content:space-between;
+
+   width: 1000px;
+ 
+}
+.LocalIcon{
+    margin-top:10px;
+    margin-right: 10px;
+}
+
+.RedesIcon{
+    display: flex;
+    flex-direction:column;
+}
