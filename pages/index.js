@@ -156,13 +156,7 @@ function HomePage() {
           
        <Box className={styles.footerContainer}>
          <FooterComponent/>
-        
-            
-            
        </Box>
-       
-      
-      
       </>
     )
   }
