@@ -23,8 +23,11 @@ function HomePage() {
        <Header/>
 
           <ContainerHeader h1="Consulte e Pague seus Débitos online"
-          Text= "Pague agora qualquer boleto, guia, multa, imposto ou taxa em até 12x sem precisar sair de casa."
+            Text= "Pague agora qualquer boleto, guia, multa, imposto ou taxa em até 12x sem precisar sair de casa."
+            Url1={"mulher"} Url2={"jovem"} Url3={"idoso"}
           />
+
+          
          
          
           <h2 className={styles.textConsulta}>Consultar débitos</h2> 

@@ -1,26 +1,130 @@
-.HeaderQuem{
-    Text{
-        
-    }
-}
+
+
 
 .containerQuemSomos{
     display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    padding:20px;
+    height:950px;
 
-    background-color: #FFFFFF;
-
+    background-color: #d6d6d6;
+    
+    
+}
+.cantainerImgMissao{
+    display: flex;
+    flex-direction: row;
 }
 
 .Missao{
     display: flex;
+    width: 200px;
     flex-direction: column;
 
-  
+    margin-left: 50px;
+    margin-top: 50px;
+
+    
+    h1{
+        color:#CB3B44;
+        
+        font-weight: 700;
+        font-family: "Helvetica";
+    }
+
+    p{
+        
+        font-family: "Helvetica";
+        font-weight:700;
+
+        color:#6A6868;
+    }
+}
+
+
+//**********Form******************
+.ContainerTrabalheForm{
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 50px;
 }
 
 .trabalhe{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    width:200px;
+    
+    margin-left: 150px;
+    
+    
+    h1{
+        color:#CB3B44;
+        
+        font-weight: 700;
+        font-family: "Helvetica";
 
-    width:100px;
+    }
+
+    p{
+        
+        font-family: "Helvetica";
+        font-weight:700;
+
+        color:#6A6868;
+    }
+
+    
 }
+.Form{
+
+    display:flex;
+    flex-direction:column;
+
+    width: 680px;
+    height: 380px;
+    margin-left: 30px;
+    padding:10px;
+
+    background-color: #fff;
+
+    .TextNome{
+        width:310px;
+        height:71px;
+    }
+    .CaixaText{
+        margin-left: 330px;
+        margin-top: -210px;
+        width: 300px;
+       
+    }
+    .ButtonEnviar{
+        
+        color:#fff;
+        font-weight: 700px;
+
+        margin-top:40px;
+        width:136px;
+        height: 46px;
+        background-color: #CB3B44;
+
+    }
+    .ButtonAnexar{
+
+        border-style: none;
+
+        color:#CB3B44;
+        font-size:26px;
+        font-weight: 700;
+
+        width: 250px;
+
+        margin-top:-50px;
+        margin-left:270px;
+    }
+}
+
