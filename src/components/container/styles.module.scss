@@ -1,14 +1,22 @@
 
+.BoxContainer{
+    height: 567px;
+    width: 100%;
+    background: linear-gradient( 0deg, #C5262C 0%, #CA262E 1.73%, #D62638 7.92%, #DF2741 14.57%, #E62848 21.81%, #EC284B 30.09%, #EE284C 41.69%, #F99D31 100%);
+}
+
 .container{
     display: flex;
-    padding: 0%;
     justify-content: center;
     
     flex-direction: row;
-    height: 100vh;
+    height: 567px;
     width: 100%;
-    background: rgb(131,58,180);
-    background: linear-gradient(0deg, #C5262C 0%, #CA262E 1.73%, #D62638 7.92%, #DF2741 14.57%, #E62848 21.81%, #EC284B 30.09%, #EE284C 41.69%, #F99D31 100%);
+   
+    background-image:url(../../../public/assets/grafismo.png);
+    background-repeat: no-repeat;
+    background-position-x: 550px;
+    background-position-y: -50px;
 
     h1{
         position: relative;
@@ -59,6 +67,7 @@
     width: auto;
     height: 90px;
     margin-top:55px;
+    margin-left:-30px;
 }
 
 
@@ -67,34 +76,12 @@
     width:40rem;
     height:450px;
     justify-content: flex-start;
-    margin: 39px -300px 39px -67px; 
+    margin: 39px -300px 39px -40px; 
     padding:0%;
     
   
 }
 
-
-
-.imgMulher{
-   position:absolute;
-   border-radius: 50%;
-   margin-left: 15rem; 
-   width: 290px;
-}
-
-.imgJovem{
-    position:absolute;
-    margin-top: 100px;
-    
-    
-   
- }
-
-.imgIdoso{
-    position:relative;
-    top: 17rem;
-    margin-left: 15rem;
- }
 
  .contatos{
      display:flex;
@@ -120,18 +107,3 @@
     width: 63px;
     height: 63px;
  }
- 
-.containerGrafismo{
-    position: absolute;
-    width: 500px;
-    margin-left: 150px;
-    margin-top: -25px;
-    justify-content: center;
-}
-
-.grafismo {
-    position: absolute;
-    
-    width: 600px;
-    height: 300px;
-}

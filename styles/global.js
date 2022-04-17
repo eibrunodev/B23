@@ -11,7 +11,7 @@ function GlobalStyles(){
         body {
           
           font-family: 'Open Sans', sans-serif;
-          background: linear-gradient(0deg, #C5262C 0%, #CA262E 1.73%, #D62638 7.92%, #DF2741 14.57%, #E62848 21.81%, #EC284B 30.09%, #EE284C 41.69%, #F99D31 100%);
+          background-color: linear-gradient(0deg, #C5262C 0%, #CA262E 1.73%, #D62638 7.92%, #DF2741 14.57%, #E62848 21.81%, #EC284B 30.09%, #EE284C 41.69%, #F99D31 100%);
         }`
       }
       

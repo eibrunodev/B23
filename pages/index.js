@@ -22,17 +22,14 @@ function HomePage() {
        <GlobalStyles/>
        <Header/>
 
-          <ContainerHeader h1="Consulte e Pague seus Débitos online"
+          <ContainerHeader h1="Consulte e pague seus débitos online"
             Text= "Pague agora qualquer boleto, guia, multa, imposto ou taxa em até 12x sem precisar sair de casa."
             Url1={"mulher"} Url2={"jovem"} Url3={"idoso"}
           />
-
-          
          
-         
-          <h2 className={styles.textConsulta}>Consultar débitos</h2> 
-          <img className={styles.imgPague} src="/assets/paguecom.png"/>
-         
+            <button className={styles.ButtonConsulta}>Consultar débitos</button> 
+            <img className={styles.imgPague} src="/assets/paguecom.png"/>
+        
        <Box className={styles.div} >
          <Box className={styles.imgBox}>
            <img className={styles.ilustraHome} src="/assets/ilustra-home.png"/>
@@ -149,10 +146,41 @@ function HomePage() {
                   <h1>Ficou com dúvida?</h1>
                 </Box>
                 <Box className={styles.duvidas1}>
-                 <ListComponent/>
-                 <ListComponent/>
-                 <ListComponent/>
-                 <ListComponent/>
+                 <ListComponent value="É seguro pagar com a B23?">
+                 O site da B23 segue todos os protocolos de segurança exigidos 
+                 pelos órgãos, credenciadoras e bandeiras. Além disso, possui  
+                 criptografia e não armazena os dados referentes ao cartão de 
+                 crédito do cliente. A B23 possui o Certificado PCI-DSS, que 
+                 permite fazer o manuseio dos dados sensíveis sem ter receio de 
+                 perdas ou vazamentos. Seguimos as regras estabelecidas pelo Banco
+                  Central e rigorosamente a Lei Geral de Proteção de Dados (LGPD).
+                 </ListComponent>
+                 <ListComponent value="Posso pagar no boleto?">
+                 Sim, geramos um boleto no final da sua compra. 
+                 Ao realizar o pagamento do boleto, seguimos para dar 
+                 baixa aos seus débitos. Além do boleto, você pode pagar 
+                 com até dois cartões de crédito em até 12 vezes, cartão 
+                 de débito, PIX, ou uma mistura destas formas de pagamento.
+                 </ListComponent>
+                 <ListComponent value="Quem pode usar os serviços da B23?">
+                 Qualquer pessoa que tenha ao menos um cartão de crédito com 
+                 limite suficiente para a quitação dos débitos e a taxa de serviço, 
+                 ou saldo para pagamento à vista através de PIX, boleto ou cartão de débito. 
+                 Os valores podem ser parcelados com cartões de terceiros mediante análise 
+                 de titularidade.
+                 </ListComponent>
+                 <ListComponent value="Posso parcelar qualquer débito do meu veículo?">
+                 Todos os débitos que constam no DETRAN ou na SEFAZ são parceláveis: multas,
+                  IPVA, licenciamento, seguro obrigatório, etc.
+                 </ListComponent>
+                 <ListComponent value="O que pode ser parcelado?">
+                 Você pode parcelar em até 12 vezes multas, IPVA, energia elétrica, 
+                 IPTU, ITBI, ICMS, dívida ativa, contas diversas (telefone, internet, 
+                 boletos bancários etc), contas de água, parcelamento administrativo,
+                  taxas públicas ou de entidades de classe, impostos municipais e ou 
+                  estaduais entre outros. Parcelamos qualquer boleto bancário. 
+                 </ListComponent>
+              
                  <h3>Veja mais</h3>
                 </Box>   
           </Box>  

@@ -1,0 +1,50 @@
+.ajuda{
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+
+    margin-top: 10px;
+    
+    
+
+    h3{
+        margin-top: 15px;
+        font-size:12px;
+        text-decoration: underline;
+        color:#C5262C;
+    }
+
+    .title{
+        font-weight: 700;
+        font-family: "Helvetica Neue",Helvetica,Arial;
+        color:#CB3B44;
+
+    }
+}
+
+.Buscar{
+    width: 500px;
+    margin-top:20px;
+}
+
+.WhatsAppIcon{
+    display: flex;
+    float: left;
+    position: fixed;
+    flex-direction:column;
+    
+
+    margin:150px 0px 0px 1000px;
+
+    .IconZap{
+        color: green;
+        width: 40px;
+        height: 40px;
+    }
+
+    .IconMessage{
+        color: red;
+        width: 35px;
+        height: 35px;
+    }
+}

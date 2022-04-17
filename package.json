@@ -8,9 +8,12 @@
     "@emotion/styled": "^11.8.1",
     "@mui/icons-material": "^5.6.0",
     "@mui/material": "^5.6.0",
-    "next": "^12.1.4",
+    "axios": "^0.26.1",
+    "next": "^12.1.5",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-spring": "^9.4.4",
+    "react-timer-hook": "^3.0.5",
     "sass": "^1.50.0"
   },
   "scripts": {
