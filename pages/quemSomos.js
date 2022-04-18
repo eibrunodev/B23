@@ -10,6 +10,10 @@ import {FooterComponent} from '../src/components/footer/index';
 import { Button,Box,TextField,FormControl,Form} from '@mui/material';
 import AttachFileIcon from '@mui/icons-material/AttachFile';
 
+import {Slider} from '../src/components/sliderImg/sliderMulher';
+import {SliderJovem} from '../src/components/sliderImg/sliderJovem';
+import {SliderIdoso} from '../src/components/sliderImg/sliderIdoso';
+
 function QuemSomos() {
     return (
       <>
@@ -19,10 +23,14 @@ function QuemSomos() {
         
         <ContainerHeader className={styles.HeaderQuem} h1="Quem somos"
          Text= "A B23 é uma empresa de business technology com atuação nacional que presta serviços especializados a instituições financeiras e não financeiras,  desenvolvendo, implantando e operando soluções tecnológicas de ponta."
-         Url1={"mão"} Url2={"cafe"} Url3={"jovens"}
+        
        />
 
-          
+            <Box className={styles.Slider}>
+              <Slider/>
+              <SliderJovem/>
+              <SliderIdoso/>
+            </Box>
          
         <Box className={styles.containerQuemSomos}>
           <Box className={styles.cantainerImgMissao}>

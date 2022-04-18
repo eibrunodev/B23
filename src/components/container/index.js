@@ -4,9 +4,7 @@ import { useStopwatch } from 'react-timer-hook';
 import {Container,Box} from '@mui/material';
 import styles from './styles.module.scss';
 
-import {Slider} from '../sliderImg/sliderMulher';
-import {SliderJovem} from '../sliderImg/sliderJovem';
-import {SliderIdoso} from '../sliderImg/sliderIdoso';
+
 
 export function ContainerHeader(props){
    
@@ -21,9 +19,7 @@ export function ContainerHeader(props){
          
           {/* imagens-header */}
          <div className={styles.containerImg}>
-           <Slider/>
-           <SliderJovem/>
-           <SliderIdoso/>
+           
            {/* <img className={styles.imgMulher} src={`/assets/foto-${props.Url1}.png`}/> */}
            {/* <img className={styles.imgJovem} src={`/assets/foto-${props.Url2}.png`}/> */}
 

@@ -5,12 +5,15 @@ import {ContainerHeader} from '../src/components/container';
 import {ListComponent} from '../src/components/listComponent';
 import {FooterComponent} from '../src/components/footer/index';
 import { Box,Button} from '@mui/material';
-
+import Link from 'next/link';
 
 import GlobalStyles from '../styles/global';
 import styles from '../styles/pageStyle.module.scss';
 
 
+import {Slider} from '../src/components/sliderImg/sliderMulher';
+import {SliderJovem} from '../src/components/sliderImg/sliderJovem';
+import {SliderIdoso} from '../src/components/sliderImg/sliderIdoso';
 
 function HomePage() {
    
@@ -22,14 +25,19 @@ function HomePage() {
        <GlobalStyles/>
        <Header/>
 
+        
+           
           <ContainerHeader h1="Consulte e pague seus débitos online"
             Text= "Pague agora qualquer boleto, guia, multa, imposto ou taxa em até 12x sem precisar sair de casa."
-            Url1={"mulher"} Url2={"jovem"} Url3={"idoso"}
           />
-         
+            <Box className={styles.Slider}>
+              <Slider/>
+              <SliderJovem/>
+              <SliderIdoso/>
+            </Box>
             <button className={styles.ButtonConsulta}>Consultar débitos</button> 
             <img className={styles.imgPague} src="/assets/paguecom.png"/>
-        
+           
        <Box className={styles.div} >
          <Box className={styles.imgBox}>
            <img className={styles.ilustraHome} src="/assets/ilustra-home.png"/>
@@ -180,8 +188,10 @@ function HomePage() {
                   taxas públicas ou de entidades de classe, impostos municipais e ou 
                   estaduais entre outros. Parcelamos qualquer boleto bancário. 
                  </ListComponent>
-              
-                 <h3>Veja mais</h3>
+              <Link href="/ajuda"> 
+                <h3>Veja mais</h3>
+              </Link>
+                
                 </Box>   
           </Box>  
           

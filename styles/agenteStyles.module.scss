@@ -20,6 +20,10 @@
     flex-direction: row;
 }
 
+.agenteTel{
+    position: absolute;
+    margin:-530px 0px 0px 460px;
+}
 
 .Slider{
     position: absolute;
@@ -27,9 +31,9 @@
 }
 
 
-.Missao{
+.Afiliado{
     display: flex;
-    width: 200px;
+    width: 260px;
     flex-direction: column;
 
     margin-left: 50px;
@@ -38,7 +42,8 @@
     
     h1{
         color:#CB3B44;
-        
+        margin-bottom: 20px;
+
         font-weight: 700;
         font-family: "Helvetica";
     }
@@ -52,6 +57,11 @@
     }
 }
 
+.Cpf{
+    width: 300px;
+    margin:-250px 330px 0px 20px  ;
+}
+
 
 //**********Form******************
 .ContainerTrabalheForm{
@@ -61,13 +71,14 @@
     margin-top: 50px;
 }
 
-.trabalhe{
+.SejaAgente{
     display: flex;
     flex-direction: column;
     width:200px;
     
     margin-left: 150px;
     
+    text-align: end;
     
     h1{
         color:#CB3B44;
@@ -90,48 +101,52 @@
 .Form{
 
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
 
     width: 680px;
-    height: 380px;
+    height: 320px;
     margin-left: 30px;
     padding:10px;
-
+    border-radius: 10px;
     background-color: #fff;
 
-    .TextNome{
-        width:310px;
-        height:71px;
+    .FormLeft{
+        .TextNome{
+            width:310px;
+            height:71px;
+        }
+
+        .check{
+            color: #6A6868;
+            font-weight: 700;
+            font-family: "Helvetica";
+        }
     }
-    .CaixaText{
-        margin-left: 330px;
-        margin-top: -210px;
-        width: 300px;
-       
-    }
-    .ButtonEnviar{
+
+    .FormRigt{
+
+        .CPF{
+            width: 340px;
+            margin:0px 0px 10px 10px;
+        }
+        .CaixaText{
+            margin: 5px 60px 10px 10px;
+            width: 340px;
+        }
+
+        .ButtonEnviar{
         
-        color:#fff;
-        font-weight: 700px;
+            color:#fff;
+            font-weight: 700px;
 
-        margin-top:40px;
-        width:136px;
-        height: 46px;
-        background-color: #CB3B44;
+            width:136px;
+            height: 46px;
+            margin:20px 50px 0px 10px;
 
+            background-color: #CB3B44;
+    
+        }
     }
-    .ButtonAnexar{
-
-        border-style: none;
-
-        color:#CB3B44;
-        font-size:26px;
-        font-weight: 700;
-
-        width: 250px;
-
-        margin-top:-50px;
-        margin-left:270px;
-    }
+   
 }
 
